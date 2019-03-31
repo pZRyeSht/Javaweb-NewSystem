@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+bady{
+	font-size: 14px; margin: 0px; text-align: center;
+}
+#container{
+	width: 1024px; min-height: 800px; margin: 0 auto;
+}
+a{
+	font-size: 14px; text-decoration: none; color: #000088;
+}
+a:hover{
+	color: #0000ff;
+}
+input,select,td{
+	font-size:14px;
+}
+#header{
+	width: 100%; height: 200px; text-align: left;
+	background: url(../images/head.jsp) left bottom no-repeat;
+}
+#logo{
+	height: 60px; margin-left: 20px; line-height: 60px; text-align: left;
+	padding-left: 65px; padding-top: 5px; font-weight: bold; font-size: 20px;
+	background:#ffffff url(../images/logo.jpg) 10px 10px no-repeat;
+	float:left;width: 55%;
+}
+#logo2{
+	height: 60px; float: left; width: 25%;
+	margin-left: 20px; line-height: 60px; text-align: right;
+	padding-left: 65px; padding-top: 5px; font-weight: bold;
+}
+#menu{
+	font:14px verdana, arial, sans-serif; /* 设置文字大小和字体样式 */
+	width: 100%;
+}
+#menu ul{
+	margin-top: 20px; margin-left: 0px; list-style:none; padding-left: 20px;
+}
+#menu,#menu ul li{
+	list-style:none; /* 将默认的列表符号去掉 */
+    padding:0; /* 将默认的内边距去掉 */
+    margin:0; /* 将默认的外边距去掉 */
+    float: left; /* 往左浮动 */
+    display: block;
+}
+#menu ul li a,#showCurrentTime{
+	display:inline-block; /* 将链接设为块级元素 */
+    width:120px; /* 设置宽度 */
+    height:30px; /* 设置高度 */
+    line-height:30px; /* 设置行高，将行高和高度设置同一个值，可以让单行文本垂直居中 */
+    text-align:center; /* 居中对齐文字 */
+    background:#3A4953; /* 设置背景色 */
+    color:#fff; /* 设置文字颜色 */
+    text-decoration:none; /* 去掉下划线 */
+    border-right:1px solid #000; /* 在左侧加上分隔线 */
+}
+#menu ul li a,#showCurrentTime:hover{
+	background:#146C9C; /* 变换背景色 */
+    color:#fff; /* 变换文字颜色 */
+}
+#menu ul li a,#showCurrentTime:hover{
+	border-right:0; /* 去掉左侧边框 */
+}
+#navigator{
+	height: 30px; line-height: 30px;text-align:left; padding-left:20px;
+	background-color:#eeeeee;
+}
+#pagebody{
+	min-height: 500px; padding: 10px 10px 10px 10px;
+}
+#footer{
+	width: 100%; height: 60px; background-color: #eeeeee;
+	text-algin: center; font: 12px/20px Courier;
+}
+#left{
+	width: 280px; text-align: center; min-height: 460px;
+	float: left; padding: 0;
+}
+#user_state{
+	margin-bottom: 10px; border: 1px; solid #dddddd; min-height: 150px;
+}
+#info{
+	text-align: left; padding-left: 20px
+}
+#right{
+	width: 700px; height: 460px; float: right;
+}
+#left input[type="text"]{
+	width: 100px; border: 1px solid #CCC;
+}
+#left input[type="password"]{
+	width: 100px; border: 1px solid #CCC;
+}
+td{
+	height: 20px
+}
+#news_taday{
+	text-align: center;
+}
+#admin_login{
+	width: 460px;
+	height: 600px;
+	background-color: #ff8080;
+}
+
+
+
+
+
+
+
+
